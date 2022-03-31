@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul6_kelompok_codebreaker", "tpmodul6_kelompok_codebreaker.csproj", "{70E399F1-1A3B-486A-8DC4-C27E0CCE99BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70E399F1-1A3B-486A-8DC4-C27E0CCE99BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E399F1-1A3B-486A-8DC4-C27E0CCE99BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E399F1-1A3B-486A-8DC4-C27E0CCE99BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E399F1-1A3B-486A-8DC4-C27E0CCE99BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1D6639A-454F-4396-AA85-89F5FE35D208}
+	EndGlobalSection
+EndGlobal
