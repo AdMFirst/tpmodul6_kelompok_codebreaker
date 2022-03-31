@@ -4,7 +4,7 @@ namespace tp06_1302201138
 {
     public class DataMahasiswa_1302201138
     {
-        public class dataMahasiswa
+        public class DataMahasiswa
         {
             public string nama { get; set; }
             public string nim { get; set; }
@@ -15,10 +15,10 @@ namespace tp06_1302201138
         {
             string file = "tp6_1_1302201138.json";
             string dataStr = File.ReadAllText(file);
-            dataMahasiswa? dataMahasiswa = JsonSerializer.Deserialize<dataMahasiswa>(dataStr);
-
-            Console.WriteLine($"Nama {dataMahasiswa.nama} dengan nim {dataMahasiswa.nim} dari fakultas {dataMahasiswa.fakultas}");
+            DataMahasiswa dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa>(dataStr);
+            
+            
+            Console.WriteLine($"Nama {dataMahasiswa.nama} dengan NIM {dataMahasiswa.nim} dari fakultas {dataMahasiswa.fakultas}");
         }
-
     }
 }

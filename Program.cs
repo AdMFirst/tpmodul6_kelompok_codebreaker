@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Text.Json;
 
 namespace tp06_1302201138
 {
@@ -6,7 +6,8 @@ namespace tp06_1302201138
     {
         static void Main(string[] args)
         {
-            //enter
+           DataMahasiswa_1302201138 data = new DataMahasiswa_1302201138();
+            data.ReadJSON();
         }
     }
 }
