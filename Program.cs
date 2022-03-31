@@ -8,6 +8,9 @@ namespace com.kpl.tp.modul6
         {
             DataMahasiswa1302204054 mhs1 = new DataMahasiswa1302204054();
             mhs1.ReadJSON();
+
+            KuliahMahasiswa1302204054 mhs2 = new KuliahMahasiswa1302204054();
+            mhs2.ReadJson();
         }
     }
 }
