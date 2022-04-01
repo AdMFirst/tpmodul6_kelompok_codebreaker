@@ -6,8 +6,13 @@ namespace tp06_1302201138
     {
         static void Main(string[] args)
         {
-           DataMahasiswa_1302201138 data = new DataMahasiswa_1302201138();
+            DataMahasiswa_1302201138 data = new DataMahasiswa_1302201138();
             data.ReadJSON();
+
+            Console.WriteLine("");
+
+            KuliahMahasiswa_1302201138 kuliah = new KuliahMahasiswa_1302201138();
+            kuliah.ReadJSON();
         }
     }
 }
